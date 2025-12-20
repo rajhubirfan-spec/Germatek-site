@@ -408,7 +408,7 @@ app.get("/contact", (req, res) => res.send(page({
         <h2 class="h2">WhatsApp</h2>
         <p class="muted">Tap below to message Germatek instantly.</p>
         <a class="btn" id="whatsBtn" href="#">WhatsApp Germatek</a>
-        <p class="muted small">Update your WhatsApp number at the top of <b>server.js</b>.</p>
+        <p class="muted small">Fastest response via WhatsApp. Our team usually replies within business hours. <b>Germayek</b>.</p>
       </div>
 
       <form class="card form" id="contactForm">
