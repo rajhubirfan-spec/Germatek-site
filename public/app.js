@@ -11,7 +11,7 @@ hamburger?.addEventListener("click", () => {
 });
 
 // WhatsApp helper
-const WHATS = window.__BRAND__?.whatsappNumber || "2300000000";
+const WHATS = window.__BRAND__?.whatsappNumber || "23057667195";
 const wa = (text) => `https://wa.me/${WHATS}?text=${encodeURIComponent(text)}`;
 
 // Band WhatsApp button

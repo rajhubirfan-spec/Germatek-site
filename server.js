@@ -14,7 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 const BRAND = {
   name: "GERMATEK",
   slogan: "Imagine your home reinvented",
-  whatsappNumber: "2300000000", // <-- CHANGE THIS (no +, no spaces)
+  whatsappNumber: "23057667195"
+  ", // <-- CHANGE THIS (no +, no spaces)
   email: "info@germatek.mu",
   coverage: "Mauritius"
 };
