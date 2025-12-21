@@ -53,7 +53,7 @@ const page = ({ title, heroImage, heading, sub, bodyHtml, activePath }) => `<!do
 <body>
   <header class="header">
     <div class="container nav">
-      <<a class="brand" href="/" aria-label="${escapeHtml(BRAND.name)} home">
+      <a class="brand" href="/" aria-label="${escapeHtml(BRAND.name)} home">
   <img class="brand-logo" src="/images/logo.jpg" alt="${escapeHtml(BRAND.name)} logo" />
   <div class="brandtxt">
     <div class="brand-name">${escapeHtml(BRAND.name)}</div>
