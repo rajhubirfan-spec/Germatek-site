@@ -11,13 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 // =====================
 // EDIT YOUR BUSINESS INFO
 // =====================
-const BRAND = {
-  name: "GERMATEK",
-  slogan: "Imagine your home reinvented",
-  whatsappNumber: "23057667195",
-  email: "rajhub.irfan@gmail.com",
-  coverage: "Mauritius"
-};
+
 
 function escapeHtml(s) {
   return String(s)
@@ -203,18 +197,18 @@ app.get("/api/health", (req, res) => res.json({ ok: true, ts: new Date().toISOSt
 app.get("/", (req, res) => res.send(page({
   title: "Home",
   activePath: req.path,
-  heroImage: "/images/hero-home.jpg",
+  heroImage: "/images/hero-home.png",
   heading: "Imagine your home reinvented.",
   sub: "Smart automation and modern finishes designed to enhance comfort, security, and everyday living.",
   bodyHtml: `
     <div class="grid3">
       <div class="card hoverCard">
-        <img class="img hoverImg" src="/images/home-garage.jpg" alt="Automatic garage door">
+        <img class="img hoverImg" src="/images/home-garage.png" alt="Automatic garage door">
         <h3>Automatic Garage Doors</h3>
         <p class="muted">Smooth, secure garage door systems installed with precision and care.</p>
       </div>
       <div class="card hoverCard">
-        <img class="img hoverImg" src="/images/home-gate.jpg" alt="Gate opener">
+        <img class="img hoverImg" src="/images/home-gate.png" alt="Gate opener">
         <h3>Sliding & Swing Gate Openers</h3>
         <p class="muted">Reliable gate automation built for durability, convenience, and daily use.</p>
       </div>
