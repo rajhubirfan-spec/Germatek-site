@@ -213,7 +213,7 @@ app.get("/", (req, res) => res.send(page({
         <p class="muted">Reliable gate automation built for durability, convenience, and daily use.</p>
       </div>
       <div class="card hoverCard">
-        <img class="img hoverImg" src="/images/home-wpc.jpg" alt="WPC flush door">
+        <img class="img hoverImg" src="/images/home-wpc.png" alt="WPC flush door">
         <h3>WPC Flush Doors</h3>
         <p class="muted">Modern interior doors combining clean design, long-lasting durability, and low maintenance.</p>
       </div>
