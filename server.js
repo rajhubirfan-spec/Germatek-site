@@ -15,7 +15,7 @@ const BRAND = {
   name: "GERMATEK",
   slogan: "Imagine your home reinvented",
   whatsappNumber: "23057667195",
-  email: "info@germatek.mu",
+  email: "rajhub.irfan@gmail.com",
   coverage: "Mauritius"
 };
 
@@ -37,6 +37,16 @@ function navLink(href, label, activePath) {
 // =====================
 // PAGE TEMPLATE (now supports active nav highlight)
 // =====================
+const BRAND = {
+  name: "GERMATEK",
+  slogan: "Imagine your home reinvented",
+  whatsappNumber: "23057667195",     // digits only (for WhatsApp link)
+  phoneDisplay: "+230 5766 7195",    // looks nice on website
+  email: "rajhub.irfan@gmail.com",
+  coverage: "Mauritius",
+  businessHours: "Mon–Sat • 09:00–17:00"
+};
+
 const page = ({ title, heroImage, heading, sub, bodyHtml, activePath }) => `<!doctype html>
 <html lang="en">
 <head>
