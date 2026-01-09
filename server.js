@@ -287,8 +287,8 @@ app.get("/product", (req, res) => res.send(page({
     <div class="card">
       <h2 class="h2">Automatic Garage Doors</h2>
       <div class="grid2">
-        <img class="img hoverImg" src="/images/garage-1.jpg" alt="Garage door 1">
-        <img class="img hoverImg" src="/images/garage-2.jpg" alt="Garage door 2">
+        <img class="img hoverImg" src="/images/garage-1.jpeg" alt="Garage door 1">
+        <img class="img hoverImg" src="/images/garage-2.jpeg" alt="Garage door 2">
       </div>
       <p class="muted">Modern automatic garage doors designed for safety, smooth operation, and a clean architectural finish.</p>
     </div>
