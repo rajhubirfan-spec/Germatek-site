@@ -320,3 +320,26 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .menu{display:none}
   .hamburger{display:block}
 }
+/* === Product images (perfect fit, no distortion) === */
+.product-img{
+  width: 100%;
+  height: 320px;          /* desktop height */
+  object-fit: cover;      /* crops edges, keeps proportions */
+  object-position: center;
+  border-radius: 18px;
+  background: #f4f4f4;
+}
+
+/* Tablet */
+@media (max-width: 900px){
+  .product-img{
+    height: 260px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px){
+  .product-img{
+    height: 200px;
+  }
+}
