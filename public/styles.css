@@ -324,10 +324,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .product-img{
   width: 100%;
   height: 320px;          /* desktop height */
-  object-fit: cover;      /* crops edges, keeps proportions */
+  object-fit: contain;      /* crops edges, keeps proportions */
+  padding: 10px;
+  background: #fff;	
   object-position: center;
   border-radius: 18px;
-  background: #f4f4f4;
+  
 }
 
 /* Tablet */
